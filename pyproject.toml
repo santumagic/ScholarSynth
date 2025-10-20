@@ -1,0 +1,52 @@
+[project]
+name = "scholarsynth"
+version = "1.0.0"
+description = "Advanced RAG system for academic research with multi-agent architecture"
+requires-python = ">=3.11"
+readme = "README.md"
+
+dependencies = [
+    # Core AI/ML
+    "langchain",
+    "langgraph",
+    "openai",
+    "qdrant-client",
+    
+    # APIs
+    "tavily-python",
+    "cohere",
+    
+    # Evaluation
+    "ragas",
+    "langsmith",
+    
+    # Data Processing
+    "pypdf",
+    "numpy",
+    "pandas",
+    
+    # Visualization
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    
+    # UI
+    "streamlit",
+    
+    # Utilities
+    "python-dotenv",
+    "tqdm",
+    
+    # Jupyter
+    "jupyter",
+    "ipykernel",
+    
+    # Additional dependencies
+    "arxiv",
+    "scikit-learn",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+

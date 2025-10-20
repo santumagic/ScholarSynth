@@ -1,0 +1,42 @@
+# ⚠️ PYTHON 3.11+ REQUIRED ⚠️
+# RAGAS evaluation framework requires Python 3.10+
+# Python 3.11 recommended for full compatibility and stability
+
+# Core AI/ML - Let pip resolve compatible versions
+langchain
+langgraph
+openai
+qdrant-client
+
+# APIs
+tavily-python
+cohere
+
+# Evaluation
+ragas
+langsmith
+
+# Data Processing
+pypdf
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# UI
+streamlit
+
+# Utilities
+python-dotenv
+tqdm
+
+# Jupyter
+jupyter
+ipykernel
+
+# Additional dependencies
+arxiv
+scikit-learn
